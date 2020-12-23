@@ -51,10 +51,11 @@ Finally, use the testing data to evaluate each model and compare the performance
 Use the above to answer the following:
 
 > Which model has a lower loss?
->
+The closing price model has far lower loss, as the price of Bitcoin during this period increased too greatly for the greed index to capture (as it is limited to a max of 100).
 > Which model tracks the actual values better over time?
->
+The closing price model tracks the values more closely.
 > Which window size works best for the model?
+There is not much improvement when adjusting window size for the FNG model, but the closing price model performed best at a window size of 1.
 
 - - -
 
